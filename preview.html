@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>preview</title>
+    </head>
+
+    <body>
+        <!-- <p>
+            <input type="text" id="imgname">
+            <input type="button" id="load" value="load">
+        </p> -->
+        <p>
+            <img id="imga" src=""><img id="imgb" src="">
+        </p>
+
+        <script type="text/javascript">
+            // var button = document.getElementById("load");
+            // button.onclick = function()
+            // {
+            //     var textbox = document.getElementById("imgname").value;
+            //     var imga = document.getElementById("imga");
+            //     var imgb = document.getElementById("imgb");
+
+            //     imga.src = "http://localhost:33333/static/" + textbox + "_0.bin_ori.png";
+            //     imgb.src = "http://localhost:33333/static/" + textbox + "_0.bin.png";
+            // };
+            for (var i=0; i<100; i++)
+            {
+                istr = i.toString();
+                document.write(
+                    "<p><img id=\"imga\" src=\"/static/"
+                    + istr
+                    + "_0.bin_ori.png\"><img id=\"imgb\" src=\"/static/"
+                    + istr
+                    + "_0.bin.png\"></p>");
+            }
+        </script>
+    </body>
+</html>
