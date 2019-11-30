@@ -1,3 +1,15 @@
+# CurvedSynthText
+
+Code for generating the _CurvedSynth_ dataset used in our paper: [Alchemy: Techniques for Rectification Based Irregular Scene Text Recognition (To be uploaded to Arxiv)](https://github.com/Jyouhou/ICDAR2019-ArT-Recognition-Alchemy). 
+
+Rectification based scene text recognizers trained on this dataset can achieve an improvement by more than __10%__ on Total-Text. For more details, please read our papers. 
+
+-----
+
+Below is the original README file for the original SynthText. The generation of _CurvedSynth_ is the same as SynthText. We only altered the text rendering module, added multithread data generating and made some visualization techniques. 
+
+----
+
 # SynthText
 Code for generating synthetic text images as described in ["Synthetic Data for Text Localisation in Natural Images", Ankush Gupta, Andrea Vedaldi, Andrew Zisserman, CVPR 2016](http://www.robots.ox.ac.uk/~vgg/data/scenetext/).
 
